@@ -1,0 +1,37 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 6,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Call the console.log function once",
+      "status": "passed"
+    },
+    {
+      "title": "The console.log output does not match what we expected",
+      "status": "passed"
+    },
+    {
+      "title": "There must be an arrow => at some point in your code",
+      "status": "passed"
+    },
+    {
+      "title": "Your code must not contain the word \"function\" anywhere",
+      "status": "passed"
+    },
+    {
+      "title": "Looking for multy declaration",
+      "status": "passed"
+    },
+    {
+      "title": "Multy must be an arrow and not a tradicional function",
+      "status": "passed"
+    }
+  ]
+}

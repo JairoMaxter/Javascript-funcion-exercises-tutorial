@@ -1,0 +1,461 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "https://gray-horse-tugilp51.ws-us15.gitpod.io",
+        "editor": {
+            "mode": "preview",
+            "agent": "gitpod",
+            "version": "1.0.70"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://3000-gray-horse-tugilp51.ws-us15.gitpod.io",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "currentExercise": "08-Function-that-returns",
+    "language": "node",
+    "title": "Practice Javascript Functions Tutorial",
+    "slug": "javascript-functions-exercises-tutorial",
+    "description": "Start using and practicing javascript functions, learn about arrows, anonymus functions, closures, callbacks and more!",
+    "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
+    "duration": 5,
+    "difficulty": "easy",
+    "video-solutions": false,
+    "skills": [
+        "algorithms"
+    ],
+    "graded": true,
+    "session": 4280825478728345000,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/01-Welcome",
+            "slug": "01-Welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "01-Welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-Welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-Welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/02-Hello-World",
+            "slug": "02-Hello-World",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/02-Hello-World/app.js",
+            "title": "02-Hello-World",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-Hello-World/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-Hello-World/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 2,
+            "path": "exercises/03-What-is-a-function",
+            "slug": "03-What-is-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/03-What-is-a-function/app.js",
+            "title": "03-What-is-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-What-is-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": "exercises/04-Call-a-function",
+            "slug": "04-Call-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/04-Call-a-function/app.js",
+            "title": "04-Call-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-Call-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Call-a-function/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 4,
+            "path": "exercises/05-Defining-vs-Calling-a-function",
+            "slug": "05-Defining-vs-Calling-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/05-Defining-vs-Calling-a-function/app.js",
+            "title": "05-Defining-vs-Calling-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 5,
+            "path": "exercises/06-Anonymous-functions",
+            "slug": "06-Anonymous-functions",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/06-Anonymous-functions/app.js",
+            "title": "06-Anonymous-functions",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-Anonymous-functions/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Anonymous-functions/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Anonymous-functions/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-Anonymous-functions/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Anonymous-functions/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 6,
+            "path": "exercises/07-Arrow-function",
+            "slug": "07-Arrow-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "07-Arrow-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-Arrow-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-Arrow-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-Arrow-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-Arrow-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 7,
+            "path": "exercises/08-Function-that-returns",
+            "slug": "08-Function-that-returns",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "08-Function-that-returns",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-Function-that-returns/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": "exercises/09-Function-parameters",
+            "slug": "09-Function-parameters",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/09-Function-parameters/app.js",
+            "title": "09-Function-parameters",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-Function-parameters/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Function-parameters/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Function-parameters/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-Function-parameters/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": "exercises/10-Array-Methods",
+            "slug": "10-Array-Methods",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/10-Array-Methods/app.js",
+            "title": "10-Array-Methods",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/10-Array-Methods/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Array-Methods/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Array-Methods/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/10-Array-Methods/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 10,
+            "path": "exercises/11-Remove-vowels",
+            "slug": "11-Remove-vowels",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/11-Remove-vowels/app.js",
+            "title": "11-Remove-vowels",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/11-Remove-vowels/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-Remove-vowels/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-Remove-vowels/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/11-Remove-vowels/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
+}

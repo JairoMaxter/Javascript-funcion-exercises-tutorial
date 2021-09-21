@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Did you create a function named \"multi\"",
+      "status": "passed"
+    },
+    {
+      "title": "Did you create a function named \"multi\"",
+      "status": "passed"
+    },
+    {
+      "title": "We tested the function for 3 and 6 and it did not returned 18",
+      "status": "passed"
+    },
+    {
+      "title": "We tested the function for 4 and 12 and it did not returned 48",
+      "status": "passed"
+    }
+  ]
+}
