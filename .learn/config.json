@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://gray-horse-tugilp51.ws-us15.gitpod.io",
+        "address": "https://gray-horse-tugilp51.ws-us17.gitpod.io",
         "editor": {
             "mode": "preview",
             "agent": "gitpod",
@@ -11,7 +11,7 @@
         "configPath": "learn.json",
         "outputPath": ".learn/dist",
         "publicPath": "/preview",
-        "publicUrl": "https://3000-gray-horse-tugilp51.ws-us15.gitpod.io",
+        "publicUrl": "https://3000-gray-horse-tugilp51.ws-us17.gitpod.io",
         "grading": "isolated",
         "exercisesPath": "./exercises",
         "webpackTemplate": null,
@@ -31,7 +31,7 @@
         },
         "translations": []
     },
-    "currentExercise": "08-Function-that-returns",
+    "currentExercise": "11-Remove-vowels",
     "language": "node",
     "title": "Practice Javascript Functions Tutorial",
     "slug": "javascript-functions-exercises-tutorial",
@@ -44,7 +44,7 @@
         "algorithms"
     ],
     "graded": true,
-    "session": 4280825478728345000,
+    "session": 4562556748655146500,
     "exercises": [
         {
             "position": 0,
@@ -286,7 +286,7 @@
                 "us": "README.md"
             },
             "language": "node",
-            "entry": "app.js",
+            "entry": "exercises/07-Arrow-function/app.js",
             "title": "07-Arrow-function",
             "graded": true,
             "files": [
@@ -322,7 +322,7 @@
                 "us": "README.md"
             },
             "language": "node",
-            "entry": "app.js",
+            "entry": "exercises/08-Function-that-returns/app.js",
             "title": "08-Function-that-returns",
             "graded": true,
             "files": [
@@ -347,7 +347,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 8,
@@ -383,7 +383,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 9,
@@ -419,7 +419,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 10,
@@ -430,7 +430,7 @@
                 "us": "README.md"
             },
             "language": "node",
-            "entry": "exercises/11-Remove-vowels/app.js",
+            "entry": "app.js",
             "title": "11-Remove-vowels",
             "graded": true,
             "files": [
@@ -455,7 +455,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         }
     ]
 }
